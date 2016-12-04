@@ -31,12 +31,12 @@ if(isset($_POST['email'])){
 
 
 
-		if($email=="mohamad.ferdiansyah17@gmail.com"){
+		if($email=="okialifpratama@gmail.com"){
 			if($password=="test"){
 
 				$_SESSION['isLoggedIn'] = true;
 				$_SESSION['email'] = $email;
-				header("location:index.php?l=success");
+				header("location:index.phmp?l=success");
 
 		}else{
 			$_SESSION['isLoggedIn'] = false;

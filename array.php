@@ -21,12 +21,12 @@
 
 // }
 
-// $c = ['d'=>['e'=>'s'],array('x'=>'u'),5=>[3,4],['x','d'=>[1,'f']]
-// ];
-// echo "<br>".$c['d']['e'];
-// echo "<br>".$c[0]['x'];
-// echo "<br>".$c[1]['0'];
-// echo "<br>".$c[6]['d']['1'];
+ //$c = ['d'=>['e'=>'s'],array('x'=>'u'),5=>[3,4],['x','d'=>[1,'f']]
+ //];
+ //echo "<br>".$c['d']['e'];
+ //echo "<br>".$c[0]['x'];
+ //echo "<br>".$c[1]['0'];
+ //echo "<br>".$c[6]['d']['1'];
 
 // echo"<pre>".print_r($_SESSION,1)."</pre>";
 // $x = [];
@@ -45,6 +45,8 @@
 // $s =[];
 // $s['identitas']=$x;
 // $u[]=$s;
+
+	
 for ($i=0;$i <= 100; $i++){
 $u[$i]['identitas']['nama'] = 'nama'.$i;
 $u[$i]['identitas']['alamat'] = 'alamat'.$i;
